@@ -1,0 +1,104 @@
+<!doctype html>
+
+<?php
+	$nome = array("Paul Nelson",
+				"Stephen Meyer", 
+				"Enezio E. de Almeida Filho", 
+				"Marcos Eberlin", 
+				"Philip Johnson",
+				"Dembsky",
+				"Michael Behe",
+				"Nahor Neves de Souza Junior",
+				"Johannes Gerson Janzen",
+				"Everton Fernando Alves",
+				"Michelson Borges",
+				"Adauto Lourenço",
+				"Casey Luskin",
+				"Michael Denton");
+	$imagem = array("img/PaulNelson.png",
+					"img/StephenMeyer.png",
+					"http://www.designinteligentebrasil.com.br/files/Committee/54065efa2a83d/enezio.jpeg",
+					"img/marcoseberlin.png",
+					"img/PhilipJhonson.png",
+					"img/dembski.png",
+					"img/behe.png",
+					"http://www.designinteligentebrasil.com.br/files/Committee/541af47ced4cb/nahor.jpg",
+					"http://www.designinteligentebrasil.com.br/files/Committee/5418c2b0e3a07/Johannes.gif",
+					"http://www.designinteligentebrasil.com.br/files/Committee/55a04f854c0ae/foto%203x4.jpg",
+					"http://www.designinteligentebrasil.com.br/files/Committee/54353c83c0a77/michelson%202012.jpg",
+					"img/adauto_lourenco-foto.png",
+					"img/CaseyLuskin.png",
+					"img/MichaelDenton.png");
+	$descricao = array("Paul A. Nelson recebeu seu Ph.D. da Universidade de Chicago Departamento de Filosofia. Sua tese critica aspectos da teoria macroevolutiva à luz dos recentes desenvolvimentos na embriologia e biologia do desenvolvimento. Entitulado On Common Descent,  que será publicado no Departamento de Ecologia e Evolução da Universidade de Chicago na série Evolutionary Monographs (e a primeira nesta prestigiada série para criticar o neodarwinismo). Ele está atualmente colaborando com Stephen Meyer e William Dembski em um livro a formulação de uma teoria científica do design biológico. Ele tem escrito vários artigos sobre os aspectos filosóficos da biologia evolutiva, incluindo um recentemente publicado em Biologia e Filosofia. Ele edita o jornal Origens e design.",
+						"Stephen C. Meyer é diretor do Centro para Ciência e Cultura do Instituto Discovery, em Seattle, e um dos principais porta-vozes do Design Inteligente. Meyer, obteve seu Ph.D. em Filosofia da Ciência com uma dissertação sobre a história da biologia da origem da vida e da metodologia das ciências históricas. Após graduar-se em física e geologia, trabalhou como geofísico para a companhia Atlantic Richfield. É co-autor de dois livros sobre design inteligente e darwinismo, além de diversos artigos.",
+						"Graduação em Ciências Humanas pela Universidade Federal do Amazonas (1980), Letras, Língua e Literatura Estrangeira (Inglês). Mestrado em História da Ciência pela Pontifícia Universidade Católica de São Paulo (2008), Título da dissertação: A natureza das críticas de Mivart ao papel da seleção natural de Darwin na origem das espécies: uma reconsideração histórica. (2008) Coordenador do NBDI (Núcleo Brasileiro de Design Inteligente), Campinas - SP, desde 1998. Ex-evolucionista e ex-ateu, é um dos pioneiros na propagação e defesa da teoria do Design Inteligente no Brasil, a partir de pequeno grupo gestado na UNIMEP - Universidade Metodista de Piracicaba em 1998. Tem dado palestras em várias universidades brasileiras, públicas e privadas, expondo e defendendo a teoria do Design Inteligente, e expondo as insuficiências fundamentais da teoria da evolução de Darwin no contexto de justificação teórica. Autor do blog Desafiando a Nomenklatura científica: http://pos-darwinista.blogspot.com, um dos principais blogs de propagação da TDI no mundo.",
+						"Graduação (1982), mestrado (1984) e doutorado (1988) em Química pela Universidade Estadual de Campinas - UNICAMP e pós-doutorado no Laboratório Aston de Espectrometria de Massas da Universidade de Purdue, USA (1989-1991). Atualmente é professor titular MS-6 da Universidade Estadual de Campinas, na qual coordena o Laboratório ThoMSon de Espectrometria de Massas (http://thomson.iqm.unicamp.br/). É membro da Acadêmia Brasileira de Ciências (2002) e comendador da Ordem Nacional do Mérito Científico (2005). Recebeu o Prêmio Zeferino Vaz de Reconhecimento Acadêmico (2002) e Prêmio Scopus-Capes (2008) de excelência em publicações e formação de pessoal. É presidente (2009) da Sociedade Internacional de Espectrometria de Massas (IMSF) e presidente executivo da Sociedade Brasileira (BrMASS), e editor associado do periódico Jounal of Mass Spectrometry da Wiley. Orientou quase uma centena e meia de mestres, doutores e pós-doutores e seu grupo de pesquisa é hoje um dos maiores do Brasil, com cerca de 55 pesquisadores. Já publicou cerca de 650 artigos científicos com perto de 10 mil citações em áreas diversas da Química e Bioquímica, e Ciências dos Alimentos, Farmacêutica e dos Materiais.",
+						"Phillip E. Johnson (Aurora, Illinois, 18 de junho de 1940) é um professor de direito aposentado da UC Berkeley e autor. Ele se tornou um cristão renascido após ter ganhado tenure como professor. Ele é considerado o pai do movimento do design inteligente, e o promove como uma alternativa ao presente paradigma científico sobre o origem e diversidade da vida(respectivamente biopoese e a teoria da evolução de Darwin).",
+						"William Albert Dembski (18 de julho de 1960 - ) é um proponente americano do design inteligente e, um oponente da teoria da evolução através da seleção natural. Ele é o autor de vários livros sobre o design inteligente, teologia, e matemática. De 1999 a 2005, ele estava na faculdade da Universidade Baylor, onde foi foco de atenção e controvérsia. Durante o ano acadêmico de 2005-6, ele foi professor de Teologia e Ciência no Southern Baptist Theological Seminary em Louisville, Kentucky, bem como o primeiro diretor do novo Centro para Teologia e Ciência da escola (substituído depois pelo notável criacionista Kurt Wise). Em 1 de junho de 2006, Dembski tornou-se professor de pesquisa em filosofia no Southwestern Baptist Theological Seminary, em Fort Worth, Texas. A Southern Baptist Convention opera os dois seminários.",
+						"Michael J. Behe (Nascido em 18 de janeiro de 1952) é um bioquímico norte-americano, professor-adjunto de bioquímica da universidade de Lehigh, Pensilvânia, além de membro sênior do Center for Science and Culture do instituto de promoção da ideologia criacionista Discovery Institute. Behe é famoso pelo seu argumento da complexidade irredutível, um conceito que alega que algumas estruturas são muito complexas no nível bioquímico para serem adequadamente explicadas como resultado de mecanismos evolucionários e, portanto, seriam o resultado de um design inteligente.",
+						"Geólogo e Engenheiro. Graduação em Geologia pela Universidade Estadual Paulista - UNESP (1980), mestrado em Geotecnia pela Universidade de São Paulo - USP (1986) e doutorado em Engenharia pela Universidade de São Paulo - USP (1992). Professor e pesquisador da USP e UNESP durante 13 anos (1982-1995). Professor do UNASP-EC e Diretor da Sub-Sede Brasileira do Geoscience Research Institute - LLU/California.",
+						"Engenheiro, Mestre e Doutor e pós-Doutor pelo MIT. Graduação em Engenharia Civil pela Universidade Federal de Mato Grosso do Sul (2000), mestrado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (2003) e doutorado em Engenharia Hidráulica e Saneamento pela Universidade de São Paulo (2006), com período sanduíche no Instituto de Hidromecânica da Universidade de Karlsruhe. Fez pós-doutorado no MIT (2013/2014). Atualmente é Professor Adjunto 4 da Universidade Federal de Mato Grosso do Sul. Tem experiência na área de Engenharia Civil e Ambiental, com ênfase em Fenômenos de Transporte, Hidráulica Ambiental e Eficiência Energética em Hidráulica e Saneamento.",
+						"Mestre em Ciências da Saúde (Imunogenética) pela Universidade Estadual de Maringá (2014). Especialização em Saúde do Trabalhador pela UENP (2009) e MBA - Gestão Hospitalar pela UNINGÁ (2011). Graduação em Enfermagem pela UNINGÁ (2006). Atuou como pesquisador-bolsista da CAPES (2012-2014) em pesquisas em Epidemiologia e Biologia molecular, no laboratório de Imunogenética (LIG-UEM), departamento de Ciências Básicas da Saúde, com foco na Doença Renal Policística Autossômica Dominante. Na área de investigação da Enfermagem, tem experiência em Epidemiologia, Saúde do Trabalhador e Enfermagem do Trabalho, atuando principalmente nos seguintes temas: Epidemiologia, Estilo de vida, Qualidade de vida, Qualidade de vida do cuidador de enfermagem, Riscos ocupacionais do estudante-trabalhador e Programas de Qualidade de Vida no Trabalho. Autor do ebook acadêmico: Teoria do Design Inteligente: evidências científicas no campo das Ciências Biológicas e da Saúde.",
+						"Jornalista, formado pela Universidade Federal de Santa Catarina (UFSC), e mestre em Teologia pelo Centro Universitário Adventista de São Paulo (Unasp). Autor de vários livros sobre a controvérsia a respeito das origens. É também técnico em química e mantém há quase dez anos o blog www.criacionismo.com.br, tendo realizado inúmeras palestras sobre ciência e religião, no Brasil e no exterior.",
+						"Físico pela Bob Jones University (1990), Carolina do Sul, EUA, mestre em Física pela Clemson University (1994), Carolina do Sul, EUA, onde defendeu a tese entitulada “Inelastic Scattering of Helium from Rhodium”. Realizou pesquisas no Max Planck Insitut für Strömungsfurchung, em Göttingen, Alemanha, em conjunto com Dr. J. R. Manson e Dr. J. P. Toenies (1992), e pesquisas no Oak Ridge National Laboratory (1990-1993), em conjunto com Dr. R. J. Warmack e Dr. T. L. Ferrell, com resultados publicados no Journal of Vacuum Science & Technology A10(4, pt.1), 630-635, sob o título: “Atomic force microscopy of deoxyribonucleic acid strands adsorbed on mica: The effect of humidity on apparent width and image contrast”. Recebeu da cidade de Limeira, SP o prestigioso Troféu Fumagalli, na área de ciência (2005), concedido pela Arvin Meritor e a Fundação Aldeia Movimento Pró-Cultura. Já palestrou em várias instituições nacionais e internacionais como a UECE; UNIFESP; Universidade Mackenzie; ITA; UENF; USP-SC; USP-POLI; UNESP-FEIS; Universidade de Coimbra (Portugal); Instituto Politécnico de Leiria(Portugal)). O seu livro “Como Tudo Começou - Uma Introdução ao Criacionismo” (ISBN: 978-85- 99145-38- 8), foi lançado em outubro de 2007 e foi premiado na XX Bienal Internacional do Livro nas categorias de design e apologética.",
+						"Casey Luskin é um advogado com pós-graduação em ciência e lei, dando-lhe experiência em ambas as dimensões científicas e legais do debate sobre evolução. Ele ganhou seu B.S. e M.S. em Ciências da Terra da Universidade da Califórnia, em San Diego, onde estudou extensivamente evolução, tanto a nível de graduação e pós-graduação. Seu grau de lei é da Universidade de San Diego, onde ele concentrou seus estudos na Primeira Emenda lei, lei de educação e direito ambiental. Em seu papel no Discovery Institute, Luskin trabalha como coordenador de pesquisa do Centro de Ciência e Cultura, auxiliando e defendendo os cientistas, educadores e estudantes que procuram estudar livremente, pesquisa e ensinar sobre o debate científico sobre a evolução darwiniana Design Inteligente. Ele anteriormente conduzia uma pesquisa geológica na Instituição Scripps para Oceanografia (1997-2002).",
+						"Michael Denton - (25 de agosto de 1943) é um autor britânico-australiano e bioquímico. Em 1973 recebeu seu PhD em Bioquímica do King's College de Londres.3 É um dos proponentes da Teoria do Design Inteligente");
+
+?>
+<html>
+	<head>
+		<title>Design Inteligente</title>
+		<meta charset= "UTF-8">
+		<link rel="stylesheet" href="estilo.css">
+		<link rel="shortcut icon" href="img/favicon.ico" >	 
+	</head>
+		
+
+	<body>
+		<div class="conteudo">
+
+			<div class="topo" > 
+				<img src="img/topo.png" width="800px" height="155" alt = "Imagem Design Inteligente">
+			</div>
+				
+			<div class="menu"> 
+
+					<a href="index.html">HOME</a>
+					<a href="nossosproponentes.php">PROPONENTES</a>
+					<a href="artigos.html">ARTIGOS</a>
+					<a href="palestras.php">VIDEOS</a>
+					<a href="contato.php">CONTATO</a>
+			</div>
+
+			<?php
+				for ($i = 0; $i < sizeof($nome); $i++){
+			?>
+				<div class="artigo">
+						<img src=<?php echo $imagem[$i];?> alt"Imagem do Paul Nelson">
+						<h2><?php echo $nome[$i];?></h2>
+							<p>
+								<?php echo $descricao[$i];?>	
+							</p>
+
+				</div>
+			<?php
+				}
+			?>				
+
+			<div class = "adsbygoogle" align = "center">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" ></script>
+					<!-- Anúncio -->
+
+					<ins class="adsbygoogle"
+						 align = "center"
+					     style="display:inline-block;width:728px;height:90px"
+					     data-ad-client="ca-pub-6736437241913917"
+					     data-ad-slot="4584341389"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+			<div>				
+
+		</div>
+	</body>
+</html>
